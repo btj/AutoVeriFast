@@ -8,7 +8,7 @@ open Printf
 
 (* Region: the parser *)
 
-let printnow string1 string2 = kfprintf (fun _ -> flush stdout) stdout string1 string2
+let printnow string1 string2 = ikfprintf (fun _ -> flush stdout) stdout string1 string2
 
 let common_keywords = [
   "switch"; "case"; ":"; "return"; "for";

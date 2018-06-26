@@ -17,7 +17,7 @@ let is_lemma k = match k with Lemma(_) -> true | _ -> false
 let printff format = kfprintf (fun _ -> flush stdout) stdout format
 
 (*An easy print function to write in the console*)
-let printnow string1 string2 = kfprintf (fun _ -> flush stdout) stdout string1 string2
+let printnow string1 string2 = ikfprintf (fun _ -> flush stdout) stdout string1 string2
 
 (*An easy print function to write in the source code*)
 let output_string_file oc string1 = output_string oc string1; flush oc 
