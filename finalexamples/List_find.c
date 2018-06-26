@@ -6,6 +6,8 @@ struct node {
    struct node *next;
 };
 
+// TODO: Generate a postcondition that describes the return value.
+
 struct node *find(int key, struct node *head)
 //@ requires true;
 //@ ensures true;
