@@ -15,7 +15,6 @@
 
 # /src/
 /src/Fonts.ml
-/src/Printexc_proxy.ml
 /src/vfversion.ml
 /src/DynType.mli
 /src/plugins.mli
