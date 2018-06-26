@@ -3110,8 +3110,8 @@ let register_prover name banner f =
 let prover_banners () = String.concat "" (List.map (fun (_, (banner, _)) -> banner) !prover_table)
 
 let banner () =
-  "VeriFast " ^ Vfversion.version ^ " for C and Java (released " ^ Vfversion.release_date ^ ") <http://www.cs.kuleuven.be/~bartj/verifast/>\n" ^
-  "By Bart Jacobs <http://www.cs.kuleuven.be/~bartj/>, Jan Smans <http://www.cs.kuleuven.be/~jans/>, and Frank Piessens, with contributions by Pieter Agten, Cedric Cuypers, Lieven Desmet, Jan Tobias Muehlberg, Willem Penninckx, Pieter Philippaerts, Amin Timany, Thomas Van Eyck, Gijs Vanspauwen, and Frederic Vogels" ^
+  "Automated VeriFast, by Mahmoud Mohsen and Bart Jacobs (released " ^ Vfversion.release_date ^ ")\n" ^
+  "based on VeriFast <http://www.cs.kuleuven.be/~bartj/verifast/>, by Bart Jacobs <http://www.cs.kuleuven.be/~bartj/>, Jan Smans <http://www.cs.kuleuven.be/~jans/>, and Frank Piessens, with contributions by Pieter Agten, Cedric Cuypers, Lieven Desmet, Jan Tobias Muehlberg, Willem Penninckx, Pieter Philippaerts, Amin Timany, Thomas Van Eyck, Gijs Vanspauwen, and Frederic Vogels" ^
   prover_banners ()
 
 let lookup_prover prover =

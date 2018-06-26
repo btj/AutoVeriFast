@@ -131,7 +131,7 @@ let show_ide initialPath prover codeFont traceFont runtime layout javaFrontend e
   let ctxts_lifo = ref None in
   let msg = ref None in
   let url = ref None in
-  let appTitle = "VeriFast " ^ Vfversion.version ^ " IDE" in
+  let appTitle = "Automated VeriFast IDE" in
   let root = GWindow.window
     ~title:appTitle ()
   in
@@ -214,7 +214,7 @@ let show_ide initialPath prover codeFont traceFont runtime layout javaFrontend e
       ignore $. Unix.create_process "cmd" [| "/C"; "start"; "Dummy Title"; url |] Unix.stdin Unix.stdout Unix.stderr
   in
   let showBannerDialog () =
-    let dialog = GWindow.dialog ~title:"About VeriFast" ~parent:root () in
+    let dialog = GWindow.dialog ~title:"About Automated VeriFast" ~parent:root () in
     dialog#action_area#set_border_width 0;
     let vbox = dialog#vbox in
     ignore $. GMisc.label ~xpad:2 ~ypad:2 ~line_wrap:true ~text:(Verifast.banner ()) ~packing:vbox#pack ();
