@@ -131,7 +131,7 @@ let show_ide initialPath prover codeFont traceFont runtime layout javaFrontend e
   let ctxts_lifo = ref None in
   let msg = ref None in
   let url = ref None in
-  let appTitle = "Automated VeriFast IDE" in
+  let appTitle = "Automated VeriFast 0.1 IDE" in
   let root = GWindow.window
     ~title:appTitle ()
   in
