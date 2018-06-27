@@ -1,8 +1,0 @@
-#ifndef MYLIB_GH
-#define MYLIB_GH
-
-lemma void length_zero_eq_nil<t>(list<t> xs);
-     requires length(xs) == 0;
-     ensures xs == nil;
-
-#endif
