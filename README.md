@@ -18,6 +18,11 @@ Binary Releases
 
 See the Releases tab above.
 
+See also
+--------
+
+- Mohsen M., Jacobs B. (2016) [One Step Towards Automatic Inference of Formal Specifications Using Automated VeriFast](https://link.springer.com/chapter/10.1007/978-3-319-45943-1_4). In: ter Beek M., Gnesi S., Knapp A. (eds) Critical Systems: Formal Methods and Automated Verification. AVoCS 2016, FMICS 2016. Lecture Notes in Computer Science, vol 9933. Springer, Cham 
+
 Acknowledgements
 ----------------
 
